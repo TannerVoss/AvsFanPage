@@ -1,2 +1,33 @@
-table-layout: fixed;
-width: 100%
+body {
+    background-image: url(./arena.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    background-attachment: fixed;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.content {
+    background-color: rgb(162, 170, 173, .9);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.currentRoster {
+    background-color: rgb(111, 38, 61, .7);
+}
+
+.playerHistory {
+    background-color: rgb(35, 97, 146, .7)
+}
+
+.coachCard {
+    background-color: rgb()
+}
