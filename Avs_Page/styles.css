@@ -35,3 +35,7 @@ body {
 .mascotCard {
     background-color: rgb(50, 50, 50);
 }
+
+.currentCoachCard {
+    background-color: rgb(162, 170, 173, .9);
+}
