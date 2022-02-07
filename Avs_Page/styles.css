@@ -8,8 +8,10 @@ body {
     background-image: url(./arena.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 80%;
+    min-width: 50%;
+    width: 95%;
     background-attachment: fixed;
+    margin: auto;
 }
 
 .title {
@@ -17,33 +19,50 @@ body {
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .players-container {
+    min-width: 50%;
     background-color: rgb(162, 170, 173, .9);
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
 }
 
 .currentRoster {
     background-color: rgb(111, 38, 61, .7);
+    text-align: center;
 }
 
 .playerHistory {
     background-color: rgb(35, 97, 146, .7);
+    text-align: center;
+}
+
+.roster-table th {
+    background-color: rgb(111, 38, 61, .4)
+}
+
+.roster-table tr {
+    background-color: rgb(111, 38, 61, .4);
+}
+
+.notablePlayers {
+    text-align: center;
 }
 
 .coach-container {
-    background-color: rgb(50, 50, 50);
-    color: white;
+    background-color: rgb(162, 170, 173, .9);
 }
 
 .mascot-container {
-    background-color: rgb(50, 50, 50);
-    color: white;
+    background-color: rgb(162, 170, 173, .9);
 }
 
-.currentCoachCard {
-    background-color: rgb(162, 170, 173, .9);
+.currentCoach {
+    background-color: rgb(111, 38, 61, .7);
+    margin: 10px;
+    padding: 10px;
 }
