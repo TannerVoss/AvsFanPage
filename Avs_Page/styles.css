@@ -41,6 +41,10 @@ body {
     text-align: center;
 }
 
+.roster-table th:nth-of-type2 {
+    background-color: white;
+}
+
 .roster-table th {
     background-color: rgb(111, 38, 61, .4)
 }
